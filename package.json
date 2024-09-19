@@ -1,0 +1,16 @@
+{
+  "name": "trading-bot-website",
+  "version": "1.0.0",
+  "description": "A web-based trading bot using technical indicators to generate buy/sell signals.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "technicalindicators": "^3.0.6"
+  }
+}
