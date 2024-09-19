@@ -1,6 +1,6 @@
 async function fetchSignals() {
   try {
-    const response = await fetch('/api/signals');
+    const response = await fetch('https://havit.onrender.com/api/signals');
     const signals = await response.json();
     displaySignals(signals);
   } catch (error) {
